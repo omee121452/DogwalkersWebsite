@@ -1,0 +1,317 @@
+/* ask harsh why the website doesnt fully "fit" and that you have to scroll horizontally instead of the horizontal axis staying locked*/
+
+body{
+    font-family: poppins;
+    background: #f0952e;
+    overflow-x: scroll;
+}
+/* remember these colors
+#df8939
+#e48329
+*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    float: left;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 0.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .8} 
+    to {opacity: 1}
+  }
+
+body h1{
+    font-weight: bolder;
+    font-size: 48px;
+}
+.wrapper{
+    width: 1900px;
+    margin-left: 3.2%;
+    align-self: center;
+}
+
+.contacts h1{
+    margin-top: 5% auto;
+}
+
+.contacts h4{
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.contacts h3{
+    font-size: 25px;
+    /* font-weight: normal; */
+    font-family: poppins;
+}
+
+.AboutUs h2{
+    font-family: poppins;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.whyUsFormat h2{
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: bolder;
+    font-weight: normal;
+}
+
+.single-price{
+    width: 31%;
+    background: #262626;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    float: left;
+    text-align: center;
+    transition: 0.9s;
+}
+
+.price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #b41126;
+    margin: 5% auto 0 auto; 
+    text-align: center;
+}
+
+.deals{
+    margin-top: 15%;
+    margin-bottom: 25%;
+}
+
+.single-price h1{
+    font-size: 18px;
+    color: #fff;
+    line-height: 3;
+    text-transform: uppercase;
+}
+
+.price h2{
+    font-size: 38px;
+    color: #fff;
+}
+
+.deals h3{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+}
+
+.deals h2{
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+}
+
+.single-price:hover{
+    background: #b41126;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: scale(1.23);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.single-price:hover .price{
+    border-color: #ffffff;
+}
+
+.bioFormat h1{
+    font-weight: bolder;
+    margin: -1.2% auto;
+    font-size: 35px;
+}
+
+.bioFormat h3{
+    font-size: 25px;
+    font-weight: bolder;
+    font-weight: normal;
+}
+
+.whyUsFormat{
+    margin: 3% auto;
+}
+
+.whyUsFormat h1{
+    font-size: 35px;
+}
+
+.pricingFormat h1{
+    font-family: cursive;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 37px;
+    color: #000000;
+    font-weight: bolder;
+}
+
+
+.pricingFormat h2{
+    font-family: cursive;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 45px;
+    color: #000000;
+    font-weight: bolder;
+}
+
+
+.single-price a{
+    text-decoration: none;
+    background: #b41126;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 5% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pricingPage a{
+    text-decoration: none;
+    background: #b41126;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 3% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.homePage a{
+    text-decoration: none;
+    background: #b41126;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 3% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contactsPage a{
+    text-decoration: none;
+    background: #b41126;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 3% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pricingPage:hover a{
+    background: #262626;
+    color: #fff;
+    transform: scale(1.23);
+    z-index: 1;
+}
+
+.contactsPage:hover a{
+    background: #262626;
+    color: #fff;
+    transform: scale(1.23);
+    z-index: 1;
+}
+
+.homePage:hover a{
+    background: #262626;
+    color: #fff;
+    transform: scale(1.23);
+    z-index: 1;
+}
+
+.single-price:hover a{
+    background: #262626;
+    color: #fff;
+}
+
+.submission-form{
+    max-width: 50%;
+    margin:2rem auto;
+    border: 2px solid rgb(223, 28, 28);
+    padding: 2rem;
+}
+
+.submission-form textarea{
+    width: 55%;
+    height: 20px;
+}
+
+.contactsPage{
+    width: 20%;
+    float: right;
+}
+
+.pricingPage{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.homePage{
+    width: 20%;
+    float: left;
+    /* margin-left: 10px auto; */
+}
